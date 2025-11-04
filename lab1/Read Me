@@ -1,0 +1,59 @@
+CSE221: Algorithms
+
+Lab-01
+Fall 2025
+
+Action required for Students
+[Google Form] CSE221 Lab Policy:
+- The lab policy file can be found here - Link
+- Please complete the lab policy acknowledgement form - Link
+[Google Form] Codeforces Account Information: (Action required)
+- Open an account at https://codeforces.com/
+- Please submit your codeforces details here - Link
+
+Necessary Resources [Bookmark the Link]
+Student Drive Folder: Link
+The folder contains:
+- Lab Policy
+- Sample Quiz Checkers
+- Environment Setup for Quiz Checker
+- Previous Semesters’ Lab Quiz Questions
+
+Assignment-01 Links:
+codeforces Invitation Link:
+https://codeforces.com/contestInvitation/0933ec323333af14cd21eb66897327
+53f301afff
+Alternative Link: https://codeforces.com/contests/643746
+[The alternative link will only work after you have successfully
+registered using the first link.]
+Deadline: Oct 26, 2025 2:00 PM
+No submission can be considered after the deadline ends.
+
+Learning Outcome of this Lab:
+- Understand the basics of Online Judge platforms.
+- Become familiar with standard Input/Output (I/O) formats used in
+Online judge
+- Learn about common judge verdicts, including Accepted (AC), Wrong
+Answer (WA), Time Limit Exceeded (TLE), and Runtime Error (RE).
+- For a 1-second time limit, most OJs allow approximately 108
+operations.
+- For python select PyPy over Python if available, as PyPy is
+faster. However, PyPy consumes more memory than Python.
+- Review O(n sorting algorithms which have already been covered in
+
+2
+)
+
+the previous courses such as Bubble Sort, Selection Sort, and
+Insertion Sort.
+- Learn to sort with multiple parameter
+- Understand the use case of stable sort
+- Explore Fast I/O techniques (self-study):
+- Python: Using sys.stdin for faster input handling.
+- C++: Using ios_base::sync_with_stdio(false); and
+cin.tie(nullptr)
+- Java: Using BufferedReader for efficient input reading.
+- The fast i/o can reduce program execution time on Online
+Judge platforms.
+- Fast I/O Example: Python, C++, Java [click Expand to view
+the code snippet]
