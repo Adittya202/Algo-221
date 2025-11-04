@@ -92,3 +92,33 @@ pointer approach [Self Study]
 Performance Analysis
 ● Compare brute-force, two-pointer, and binary search approaches in terms of time
 complexity.
+
+
+CSE221: Algorithms
+
+Lab-03
+Fall 2025
+
+Assignment-03 Links:
+codeforces Invitation Link:
+https://codeforces.com/contestInvitation/79ed1217900aad814fcffca59c6b08
+53bfd4a7e8
+Alternative Link: https://codeforces.com/contests/647079
+[The alternative link will only work after you have successfully
+registered using the first link.]
+Deadline: Nov 9, 2025 2:00 PM
+No submission can be considered after the deadline ends.
+
+Learning Outcome:
+In this lab, we will explore the Divide and Conquer paradigm, which is
+a fundamental algorithmic technique for solving problems efficiently by
+breaking them into smaller subproblems. Through hands-on
+problem-solving, students will develop a deeper understanding of
+recursion, algorithm design, and optimization.
+Understanding the Divide and Conquer Approach
+● Learn how to break a problem into smaller independent
+subproblems, solve them recursively, and combine the results.
+● Understand when and why Divide and Conquer is preferable over
+brute-force approaches.
+● Apply recurrence relations and the Master Theorem to analyze time
+complexity.
