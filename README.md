@@ -122,3 +122,24 @@ subproblems, solve them recursively, and combine the results.
 brute-force approaches.
 ● Apply recurrence relations and the Master Theorem to analyze time
 complexity.
+
+
+CSE221: Algorithms
+
+Lab-04
+Fall 2025
+
+Assignment-04 Links:
+codeforces Invitation Link:
+https://codeforces.com/contestInvitation/be2472be1ad1cefae66955ac7e1bc1ba4925e35b
+Alternative Link: https://codeforces.com/contests/649197
+[The alternative link will only work after you have successfully registered using the first link.]
+Deadline: Nov 30, 2025 2:00 PM
+No submission can be considered after the deadline ends.
+
+Learning Outcome:
+After completing this lab, students will be able to construct graphs using both adjacency list and
+adjacency matrix representations, differentiate between these forms based on their efficiency
+and application, and apply suitable data structures to implement and analyze graph-based
+problems. Students will also be able to interpret problem requirements to design appropriate
+graph representations and algorithms effectively.
