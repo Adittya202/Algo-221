@@ -137,9 +137,68 @@ Alternative Link: https://codeforces.com/contests/649197
 Deadline: Nov 30, 2025 2:00 PM
 No submission can be considered after the deadline ends.
 
+
+CSE221: Algorithms
+
+Lab-05
+Fall 2025
+
+Assignment-05 Links:
+codeforces Invitation Link:
+https://codeforces.com/contestInvitation/89feb126a9191ae393d028f5c22232
+508072d137
+Alternative Link: https://codeforces.com/contests/650807
+[The alternative link will only work after you have successfully
+registered using the first link.]
+Deadline for Assignment-05: Dec 7, 2025 2:00 PM
+No submission can be considered after the deadline ends.
+Important Notes:
+Since the midterm date has been shifted, there is a change in the lab
+plan as follows:
+● Deadline for Assignment-04 Extended Till: Dec 7, 2025 2:00 PM
+● Quiz-04 Date: Dec 6, 2025 , Dec 7, 2025 (as per your routine)
+● Quiz-04 Syllabus: Assignment-04 and Assignment-05 (one quiz
+covering both topics)
+Learning Outcome:
+Upon successful completion of this lab, students will have a solid
+understanding of graph and grid traversal techniques. They will be able
+to apply fundamental concepts such as graph traversal, cycle detection,
+shortest path finding, and flood fill in practical problem-solving
+scenarios. Students will also learn how similar ideas extend to
+two-dimensional grids, enabling them to identify reachable regions and
+solve practical search problems. Overall, this lab aims to help
+students connect the theory of graph algorithms with their practical
+
+use in code, and to develop confidence in choosing and applying
+appropriate traversal strategies.
+
+
 Learning Outcome:
 After completing this lab, students will be able to construct graphs using both adjacency list and
 adjacency matrix representations, differentiate between these forms based on their efficiency
 and application, and apply suitable data structures to implement and analyze graph-based
+
+CSE221: Algorithms
+
+Lab-06
+Fall 2025
+
+Assignment-06 Links:
+codeforces Invitation Link:
+https://codeforces.com/contestInvitation/c38e258c563d9bd19bd07e188c82a3
+a3f54e17b2
+Alternative Link: https://codeforces.com/contests/656453
+[The alternative link will only work after you have successfully
+registered using the first link.]
+Deadline: Dec 14, 2025 2:00 PM
+No submission can be considered after the deadline ends.
+
+Learning Outcome:
+By the end of this lab, students will have a better understanding of
+how to use BFS and DFS to solve more advanced problems. They will learn
+how to check if a graph is bipartite, how to find a topological order
+of a graph, and solve other problems that use these techniques. This
+lab will help students think more clearly about how graphs work and how
+to turn those ideas into working code.
 problems. Students will also be able to interpret problem requirements to design appropriate
 graph representations and algorithms effectively.
