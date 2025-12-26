@@ -25,7 +25,7 @@ public class sevenF {
         FastScanner sc = new FastScanner();
         PrintWriter out = new PrintWriter(System.out);
 
-        /* loop segment for the test cases: UNCOMMENT BELOW FOR EXAM */
+        
         int tCases = 1;
         // String tStr = sc.next(); if(tStr != null) tCases = Integer.parseInt(tStr);
 

@@ -33,16 +33,16 @@ public class sevenA {
 
         if (sc.hasNext()) {
             int tCases = 1; 
-            // Exam hint: if T is given, do tCases = sc.nextInt();
+            //  tCases = sc.nextInt();
 
-            /* loop segment for the test cases */
+          
             while (tCases-- > 0) {
                 int n = sc.nextInt();
                 int m = sc.nextInt();
                 int s = sc.nextInt();
                 int dNode = sc.nextInt();
 
-                // Read input based on the specific format in image B
+               
                 int[] uArray = new int[m];
                 for (int i = 0; i < m; i++) uArray[i] = sc.nextInt();
                 int[] vArray = new int[m];
@@ -88,7 +88,7 @@ public class sevenA {
                 } else {
                     out.println(dist[dNode]);
                     
-                    // Reconstructing the path
+                   
                     List<Integer> path = new ArrayList<>();
                     for (int curr = dNode; curr != 0; curr = parent[curr]) {
                         path.add(curr);

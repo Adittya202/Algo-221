@@ -32,7 +32,7 @@ public class sevenD {
         PrintWriter out = new PrintWriter(System.out);
 
         int tCases = 1; 
-        /* loop segment for the test cases: UNCOMMENT BELOW FOR EXAM */
+        
         // tCases = sc.nextInt(); 
 
         while (tCases-- > 0) {
@@ -63,7 +63,7 @@ public class sevenD {
             long[] dist = new long[n + 1];
             Arrays.fill(dist, INF);
             
-            // The starting cost is the weight of the source node
+            
             dist[s] = nodeWeights[s];
 
             PriorityQueue<Node> pq = new PriorityQueue<>();
@@ -76,7 +76,7 @@ public class sevenD {
 
                 for (int i = head[u]; i != 0; i = next[i]) {
                     int v = to[i];
-                    // Cost to reach node v is current cost + weight of node v
+                   
                     if (dist[u] + nodeWeights[v] < dist[v]) {
                         dist[v] = dist[u] + nodeWeights[v];
                         pq.add(new Node(v, dist[v]));

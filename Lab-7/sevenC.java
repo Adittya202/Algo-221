@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class sevenC {
-    // Adjacency list arrays for bi-directional edges
+  
     static int[] head, to, next, weight;
     static int edgeCount;
     static final int INF = Integer.MAX_VALUE;
@@ -15,7 +15,7 @@ public class sevenC {
         head[u] = edgeCount;
     }
 
-    // Node class for PriorityQueue
+    
     static class Node implements Comparable<Node> {
         int id, danger;
         Node(int id, int danger) {
@@ -32,9 +32,9 @@ public class sevenC {
         FastScanner sc = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
 
-        /* loop segment for the test cases */
-        // Change to 'int t = sc.nextInt();' if the exam provides T on the first line
-        int t = 1; 
+        
+        // int t = sc.nextInt();
+        int t = 1; //comment
         while (t-- > 0) {
             String firstVal = sc.next();
             if (firstVal == null) break;
@@ -42,7 +42,7 @@ public class sevenC {
             int n = Integer.parseInt(firstVal);
             int m = sc.nextInt();
 
-            // Initialize arrays for n cities and 2*m bi-directional edges
+           
             head = new int[n + 1];
             to = new int[2 * m + 1];
             weight = new int[2 * m + 1];
@@ -73,7 +73,7 @@ public class sevenC {
 
                 for (int i = head[u]; i != 0; i = next[i]) {
                     int v = to[i];
-                    // Minimax logic: danger to reach v is max(danger to reach u, edge danger)
+                    
                     int currentPathDanger = Math.max(minMaxDanger[u], weight[i]);
                     if (currentPathDanger < minMaxDanger[v]) {
                         minMaxDanger[v] = currentPathDanger;
@@ -82,7 +82,7 @@ public class sevenC {
                 }
             }
 
-            // Print output for all cities from 1 to n
+            
             for (int i = 1; i <= n; i++) {
                 out.print((minMaxDanger[i] == INF ? -1 : minMaxDanger[i]) + (i == n ? "" : " "));
             }
@@ -92,7 +92,7 @@ public class sevenC {
         out.close();
     }
 
-    // Verified FastScanner to avoid TLE and Compilation errors
+   
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;

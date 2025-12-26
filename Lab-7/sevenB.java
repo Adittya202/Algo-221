@@ -33,9 +33,9 @@ public class sevenB {
 
         if (sc.hasNext()) {
             int tCases = 1; 
-            // Exam hint: if T is given, do tCases = sc.nextInt();
+            //  tCases = sc.nextInt();
             
-            /* loop segment for the test cases */
+           
             while (tCases-- > 0) {
                 int n = sc.nextInt();
                 int m = sc.nextInt();

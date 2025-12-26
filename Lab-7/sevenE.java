@@ -33,7 +33,7 @@ public class sevenE {
         FastScanner sc = new FastScanner();
         PrintWriter out = new PrintWriter(System.out);
 
-        /* loop segment for the test cases: UNCOMMENT BELOW FOR EXAM */
+       
         int tCases = 1;
         // String tStr = sc.next(); if(tStr != null) tCases = Integer.parseInt(tStr);
 
@@ -43,7 +43,7 @@ public class sevenE {
             int n = Integer.parseInt(firstVal);
             int m = sc.nextInt();
 
-            // Read the three arrays for edges
+          
             int[] uArr = new int[m];
             for (int i = 0; i < m; i++) uArr[i] = sc.nextInt();
             int[] vArr = new int[m];
@@ -66,8 +66,7 @@ public class sevenE {
 
             PriorityQueue<State> pq = new PriorityQueue<>();
             
-            // At node 1, we can pick any parity for the FIRST edge. 
-            // We use a special initial state or allow both transitions.
+            
             for (int i = head[1]; i != 0; i = next[i]) {
                 int v = to[i];
                 int w = weight[i];
