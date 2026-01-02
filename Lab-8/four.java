@@ -7,7 +7,7 @@ public class four {
         PrintWriter out = new PrintWriter(System.out);
 
         int tCases = 1; 
-        // tCases = sc.nextInt(); // UNCOMMENT THIS FOR EXAM
+        // tCases = sc.nextInt(); 
 
         while (tCases-- > 0) {
             String nStr = sc.next();
